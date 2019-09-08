@@ -1,11 +1,4 @@
 @font-face {
-  font-family: 'ibm-sans-regular';
-  src: url("../fonts/ibm-sans/IBMPlexSans-Regular.otf");
-  font-weight: normal;
-  font-style: normal;
-
-
-
 
   font-family: 'ibm-mono-bold';
   src: url("../fonts/ibm-mono/IBMPlexMono-Bold.otf");
@@ -35,7 +28,7 @@
 
 
 body {
-  font-family: "ibm-sans-regular";
+  font-family: sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -93,7 +86,7 @@ h3{
 
 h4{
   color: #000;
-  font-family: 'ibm-mono-bold', sans-serif;
+  font-family: 'ibm-mono-bold';
   font-size: 24px;
   font-weight: 400;
   margin-top: 70px;
@@ -103,7 +96,7 @@ h4{
 
 h5{
   color: #000;
-  font-family: "ibm-sans-regular";
+ /* font-family: "ibm-sans-regular";*/
   font-weight: 400;
   margin: 0 0 30px 0; }
   
@@ -111,7 +104,7 @@ h6 {
   
   font-size:20px;
   text-align: center;
-  font-family: "ibm-sans-regular";
+ /* font-family: "ibm-sans-regular";*/
   margin: 0 0 10px 0; 
   }
 
@@ -120,7 +113,6 @@ hr{
     width: 90%;
     margin-top: 80px;
     margin-bottom: 80px;
-
   }
 
 
@@ -191,13 +183,19 @@ div.discr p {
 }
 
 div.imga {
-   margin:0 auto;  
+   margin-left: auto;  
+   margin-right: auto;  
 }
 div.imga p {
   text-align: center;
   padding-top: 1px;
   color: #808080;
   font-style: italic;
+}
+
+div.margin{
+  width: 90%;
+  margin: 10px auto 300px auto;
 }
 
 
@@ -234,7 +232,7 @@ div.imga p {
   font-size: 18px;
 }
 
-#btn-c{
+button.change{  
   background-color: #d6295c;
   border: none;
   font-family: 'ibm-mono-bold';
@@ -242,7 +240,13 @@ div.imga p {
   margin: 5px 15px 5px 15px;
   cursor: pointer;
   width: 250px;
-  
+  transition-duration: 0.4s;
+}
+
+.change:hover{
+   background-color: #fff;
+   color: #d6295c;
+   border: 2px solid #d6295c;
 }
 
 
