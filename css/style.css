@@ -779,7 +779,7 @@ body.offcanvas {
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
-        background: rgba(255, 255, 255, 0.5); }
+        background: rgba(0, 0, 0, 0.5); }
         .project .desc h3 {
           font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
@@ -787,6 +787,7 @@ body.offcanvas {
           color: #000; }
         .project .desc span {
           -webkit-transform: translate3d(0, 0, 0);
+          color:#fff;
           transform: translate3d(0, 0, 0); } }
   .project:hover .desc {
     opacity: 1; }
