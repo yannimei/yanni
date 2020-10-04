@@ -52,8 +52,9 @@
 	     <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"  style='overflow-x: hidden; overflow-y: hidden';><i></i></a>
 		
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<a href="index.html"><img src="images/logo.png" width="100%"></a>
+			<a href="index.html"><img src="images/logo.png" width="80%"></a>
 
+			<!-- left nav -->
 
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
@@ -61,15 +62,13 @@
 					<li class="colorlib-active"><a href="index.html">Work</a></li>
 				</ul>
 
-					<!-- <div class="guide" ">
-					    <p><b>#ULTIMAKER_CURA_CONNECT</b></p>
-						<p><a href="about.html">Design Goal & Interaction Vision→</a><p>
-						<p><a href="about.html">Research→</a><p>
-						<p><a href="about.html">Concept→</a><p>
-						<p><a href="about.html">User Evaluation→</a><p>
-					</div><br><br> -->
+				<!-- otherwork -->
 
-				
+				<div class="work-overview">
+					<div class="work-inactive"><a href="cakevr.html">Cake_VR</a></div>
+					<div class="work-active"><a href="ultimaker.html">Cura FLow</a></div>
+					<div class="work-active"><a href="history.html">Hi!Story</a></div>
+				</div>
 
 				<ul>
 					<li><a href="about.html">Bio</a></li>
@@ -78,6 +77,7 @@
 				
 			</nav>
 
+			<!--  footer -->
 			<div class="colorlib-footer">
 				<p>
                       Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
@@ -100,39 +100,61 @@
 				<div class="container-fluid">
 
                      <!--题头-->
-					<div class="row">
-							<h2 >Cake_VR</h2>
-							<h3>A socialVR tool for the remote co-design of customized cakes</h3><br>
-							<p> <b>Master thesis & Individual work, 2020.02-2020.08</b> <br> <b>Tutor:</b> Huib de Ridder, Pablo Cesar, Jie Li &nbsp&nbsp&nbsp <b>Tool:</b> Blender, Unity, Photon &nbsp&nbsp&nbsp <b>Skill:</b> Qualitative research, VR development</p>
-							<p> <b>My task:</b> In this personal project, I conducted literature review, user research, ideation, VR development, user validation and analysis by myself.</p>
+					<div class="discr">
+							<h1>Cake_VR</h1>
+							<h3>A socialVR tool for the remote co-design of customized cakes</h3>	
+					</div>
 
-							
-							
+					<div class="work-information">
+					    <b>VR system design</b>
+					    <br><br>
+						Master thesis & Individual work <br>2020.02-2020.08 <br> Collaboration: Centrum Wiskunde & Informatica 
 					</div>
 
 					 <!--正文-->
-						<div class="row">
-							<h2 >Introduction</h2>
+						<div class="work-subtitle-1">
+							Introduction
+						</div>
 
-						    <div class="discr">
-								<p>	Cake_VR is a <b>socialVR tool</b>, allowing cake makers and clients to <b>collaboratively design unique cakes remotely in a shared virtual space</b>. It is the Master thesis of Design for Interaction, collaborating with CWI (Centrum Wiskunde & Informatica), national research institute for mathematics and computer science in the Netherlands.
+						  <div class="discr">
+								<p>	Cake_VR is a VR-aided collaboration system, allowing cake makers and clients to collaboratively design unique cakes remotely in a shared virtual space. It is my master thesis project, collaborating with CWI (Centrum Wiskunde & Informatica), the Center of Mathematics and Computer Science in the Netherlands. 
 								</p>
-								<h4><img src="images/08-cover.gif" width="60%"></h4>
-							</div>
+						     <div class="imga">
+						  		<img src="images/08-cover.gif" width="60%">
+						 	 </div>
+						 	 <div class="direct"> <a href="#demo">Wanna watch the video demo first?</a></div>
+						  </div>
 
-							<hr>
+						  
 
-							<h2>Why socialVR, co-design and cake?</h2><br><br>
-							
-							<div class="row">
-								<div class="discr">
-									<div class="col-md-6">
+						  <hr>
+
+						  <div class="work-subtitle-1">
+							Why socialVR, co-design and cake?
+						  </div>
+
+							<div class="discr">
+								<div class="row">
+									<div class="col-md-8">
+									<p> In this project, I want to explore how to integrate co-design methodology to customization services to increase customer participation and user satisfaction. I choose the use case of cake customization of services cuz I am a super fan of desserts and in Delft there are a lot of super nice bakeries for me to immerse in the context. From my initial research, I found that clients communicate about cake design with pastry chefs in face-to-face meetings, followed up by online chat remotely. The current communication way is insufficient for the users to convey and understand abstract design ideas. </p>
+											
+									</div>	
+									<div class="col-md-4" >
+										<img src="08/cake.gif" width="100%">
+										<div class="img-caption">emmmmm... It is difficult for you to describe and perceive this cake from this picture, right? </div>
+									</div>
+								</div>
+
+								<br><br>
+
+								<div class="row">
+									<div class="col-md-7">
 											<img src="08/C-02.gif" width="100%">
+											<div class="img-caption">Research Lens of this project</div>
 									</div>
 										
-									<div class="col-md-6" >
-										<p id="right-side"> In this project, I want explore how to <b>integrate co-design methodology to customization services to increase customer participation</b>, and hence, user satisfaction. However, in the current situation, clients communicate about cake design with pastry chefs in face-to-face meeting, followed up by online chat. The current way is insufficient for the users to convey and understand abstract design ideas. Therefore, I think <b>SocialVR is a promising medium to support remote co-design activities</b>, for its interactive 3d visualization and free operation.</p>
-
+									<div class="col-md-5" >
+										<p>I am wondering, is SocialVR (a multi-user VR space)  a promising tool for people to “bake” cakes together, for its proficient 3d visualization and operation? After that, I built up the research lens of this project, exploring the potential of socialVR for supporting remote co-design practices in the customization retail context.</p>
 										<br>
 
 											<button type="button" class="collapsible">What is socialVR</button> 
@@ -140,9 +162,7 @@
 													<img src="08/C-03.gif" width="90%">
 					 							 	<p id="caption"> SocialVR  is defined as a VR-based social interaction technology, which allows multiple users who are physically separated to interaction with each other in a shared virtual space. </p>
 												</div>
-											<br>
-
-										
+											<br>	
 											<button type="button" class="collapsible">What is co-design</button> 
 												<div class="content">
 													<img src="08/C-04.PNG" width="70%" >
@@ -154,31 +174,37 @@
 
 							<hr>
 
-								<h2 >Research Procedure</h2><br><br>
+						 	<div class="work-subtitle-1">
+							Research Procedure
+						  	</div>
+
+							<div class="discr">
 								<div class="row">
-									<div class="discr">
-										
-										<div class="col-md-6">
-											<img src="08/C-01.png" width="90%">
-										</div>
-										
-										<div class="col-md-6" >
-											<p id="right-side"> This project followed a coherence research-through-design process. Literature review and user research were conducted to inform the design concept and requirements. After that, The design concept was implemented, into a form of medium-fidelity VR prototype. The prototype was validated by the user tests, to <b>investigate the impacts of socialVR tool on co-design activities</b>, as well as <b>evaluate to what the text the design concept was realized and implemented</b>.</p>
-										</div>
-										
+									
+									<div class="col-md-5">
+										<img src="08/C-01.png" width="100%">
 									</div>
+									
+									<div class="col-md-7" >
+										<p id="right-side"> This project followed a coherence research-through-design process. Literature review and user research were conducted to inform the design concept and requirements. After that, the design concept was implemented into a form of a medium-fidelity VR prototype. The prototype was validated by the user tests (10 samples), to investigate the impacts of socialVR tool on co-design activities, as well as evaluate to what extent the design concept was realized and implemented.</p>
+									</div>
+									
 								</div>
+							</div>
 						   
 
 							<hr>
 
-							<h2>User research</h2><br><br>
-							<div class="row">
-								<div class="discr">
-									<div class="col-md-4">
-										<p>In this research, I wanted to <b> understand the current interaction of the customized cake services </b>. Here, I want to explore two questions. In order to answer these questions, I <b>interview</b> 5 cake makers and 4 clients who have personalized cakes before.</p>
+							<div class="work-subtitle-1">
+							 User research
+						  	</div>
+
+							<div class="discr">
+								<div class="row">
+									<div class="col-md-5">
+										<p>The first step is user research, aiming to understand the current interaction between clients and cake makers of the customized cake services . Here, I want to explore two questions. </p>
 									</div>
-									<div class="col-md-8">
+									<div class="col-md-7">
 										<ul>
 											<li id="question">How do clients and cake makers generate ideas and make the design decisions?</li>
 											<li id="question">What's their concerns and latent needs?</li>
@@ -187,134 +213,186 @@
 								</div>
 							</div>
 
-							<div class="row">
+							<div class="discr">
+									<p>In order to answer these questions, I interview 5 cake makers and 4 clients who have personalized cakes before. Context inquiry was conducted in the bakeries.</p>
+									<div class="imga">
+										<img src="08/interview.PNG" width="40%">
+										<div class="img-caption">Cake researcher in Delft, I interview while the baker is decorating cakes.
+										</div>
+									</div>
+							</div>
+
 								<div class="discr">
-									<p>I transcripted the interview audio recordings and collected the relevant quatations. Then, I conducted a thematic analysis by clustering these quatations. After that, I conducted two main categories: (1) Personal experienece of bakers and clients (2) Communication workflow. This information led to two research results.
+									<p>I transcripted the interview audio recordings and conducted a thematic analysis. Here, I conducted two main categories: <b>(1) Personal experience of bakers and clients (2) Journey of client-baker communication. This information led to two research results</b>.
 									</p> 
-									<div class="col-md-4">	
-										<img src="08/C-32.png" width="90%">
-									</div>
-									<div class="col-md-8">
-										<img src="08/C-33.png" width="90%">	
+									<div class="row">
+										<div class="col-md-5">	
+											<img src="08/C-32.PNG" width="100%">
+											<div class="img-caption">Thematic analysis
+											</div>
+										</div>
+										<div class="col-md-7">
+											<img src="08/C-33.png" width="100%">	
+											<div class="img-caption">Analysis result
+											</div>
+										</div>
 									</div>
 								</div>
-							</div>
+							
 
-							<div class="row">
-								<div class="discr">
-									<h4>[Result 1] workflow of baker-client communication</h4>
-									<div class="imga"> <p> <img src="08/C-05.gif" width="90%"></p> </div>
-									<p>The workflow is generally divided into three stages: <b>Giving client input</b> (Custmer convey their intial thoughts to inform the cake design); <b>Ideation & Negotiation</b> (Bakers and customers colloratively develop the cake ideas by negotiation); <b>Agreement</b> (Bakers document the final decisions for reaching an agreement)</p>
-									<div class="col-md-4" >
-										<button type="button" class="collapsible">[1] CLIENT INPUT</button> 
-												<div class="content">
-					 							 	<p id="caption"> First, the idea is originated from client inputs. In this phase, client express their ideas to cake maker, based on the emotion they would convey via this cake, or the context in which the cake would be consumed, or, the desired physical features of the cake. When describing their ideas, clients usually utilize a collection reference images to illustrate the abstract thoughts.</p>
-												</div>
-									</div>
-									<div class="col-md-4" >
-										<button type="button" class="collapsible">[2] IDEATION & NEGOTIATION</button> 
-												<div class="content";>
-					 							 	<p id="caption">Second, the cake idea is developed based on the collaborative ideation and negotiation. Cake makers and clients adapt some reference design templates, combine existing design elements, or create something from scratch. They exchange ideas and professional advices, in aid of diverse media, such as dummy, photos and sketch or even real cakes. These media were efficient in presenting tacit information, such as size, 3d shape, aesthetic, which are difficult to express in words. </p>
-												</div>
-									</div>
-									<div class="col-md-4" >
-										<button type="button" class="collapsible">[3] AGREEMENT</button> 
-												<div class="content">
-					 							 	<p id="caption">Third, the client and cake maker reach an agreement on the final decision by making a conclusion. They usually transform all the design details into texts and images, and then documents them into a digital or physical contract, as an evidence of their consensus. </p>
-												</div>
-									</div>		
-								</div>
+                            <div class="work-subtitle-2">[Result 1] workflow of baker-client communication</div>
+							<div class="discr">
+								<p>The result one is the communication workflow of client and bakers for generating ideas and making design decisions. Three phases were identified: (1) Client input, (2) Ideation and negotiation, (3) Agreement.</p>
+								<div class="imga"> <img src="08/process.png" width="75%"></div>			
 							</div>
+							<br><br>
+							<div class="imga"> <img src="08/clientinput.png" width="80%" id="shadow-pic"></div><br>
+							<div class="imga"> <img src="08/ideation.png" width="80%" id="shadow-pic"></div><br>
+							<div class="imga"> <img src="08/agreement.png" width="80%" id="shadow-pic"></div><br>
+							
 
-							<br><br><br><br>
+							<br><br>
+							<div class="work-subtitle-2">[Result 2] Conclude Design requirements</div>
 
 							<div class="discr">
-								<h4>[Result 2] Concern/Latent needs to Design requirements</h4>
-								<p></p>
-								<ul>
-									<li>There is a lack of integration of multiple media in the design process.</li>
-									<li>Participants lack immediate and direct perception of the effects of their design intervention.</li>
-									<li>A time-efficient method is needed for cake makers to embody the finalized cake ideas.</li>
-									<li>There is a need for presenting the finalized ideas including both vivid details and an overall image.</li>
-									<li>Cake makers need a more efficient way to manage the decision information so as to conclude design decisions.</li>
-								</ul>
-							</div>	
-
-							<div class="discr">
-								<p>Based on these results as well as the current state of art in literature, I concluded 10 design requirements of the CakeVR.</p>
-								<div class="imga"> <p> <img src="08/C-06.gif" width="90%"></p> </div>
+								<p>Based on the insights above, I came up with 8 design requirements to support the 3 phases of the co-design process. Eash design requirement aims to fix the latent need, deal with the pain points, or facilitate the main action of the co-design activities. These requirements are the main functionality or interaction techniques of CakeVR, they will be incorporated in the system design and storyboard, and implemented in the following process of VR development.</p>
+								<div class="imga"> <img src="08/requirements.png" width="75%"></div>
 							</div>
 
 						
 						<hr>
-							<h2>Design</h2><br><br>
+							<div class="work-subtitle-1">
+							 Design
+						  	</div>
+						
 							<div class="discr">
 								<p>Based on the design requirements, I drafted the general system of CakeVR. It is a virtual sapce where two users can meet each other represented as cartoonish avatars by wearing HMDs. They can switch the virtual environment between a virtual bakery and an event context where the cake would be consumed. Opertation interfaces were offered for them to do 3d works, and the 3d models will be visualized real-time.</p>
-								<div class="imga"> <p> <img src="08/C-34.png" width="70%"></p> </div>
-								<p>Also, all the ten design requirement are included in the proposed interaction flow of CakeVR. Here is the video demo in which all of them will be elaborated.</p>
-								<h4><iframe width="750" height="480" src="https://www.youtube.com/embed/Sna02mPjf3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h4>
+								<div class="imga"> <img src="08/C-34.png" width="80%"> 
+									<div class="img-caption">System overveiw</div>
+								</div>
+								<br><br>
+								<p>This storyboard indicated the ideal virtual co-design process in CakeVR.It supports a coherent co-design process from preparation, initial idea discussion, ideation and negotiation to confirmation.</p>
+								<div class="imga"> <img src="08/storyboard.png" width="90%"> 
+									<div class="img-caption">Storyboard</div>
+								</div>
 							</div>
 
+							<br><br>
 
-						<hr>
-							<h2>VR development</h2><br><br>
-							<div class="discr">
-								<p>The development process was generally divided into three phases: <b>[1] 3d modelling in Blender; [2] VR interaction development in aid of C# for Unity; [3] Multi-user connection and data sync by PhotonPun.</b></p>
-								<div class="imga"><p><img src="08/C-35.png" width ="60%" ></p></div>
+							<div class="work-subtitle-2">
+							 	User interface flow 
+						  	</div>
+							<div class="img-showcase">
+								<img src="08/UI.gif" width=90%>
+								<div class="img-caption">User Interface (The main screen & Toolbar)</div>
 							</div>
 							<br><br>
-							<div class="row">
-								<div class="discr">
-									<div class="col-md-4">
-										<p>1. 3d modelling and shading and UV shading in Blender, to create the 3d shapes and visual texture of the mostly user cake component models.</p>
-									</div>
-									<div class="col-md-4">
-										<p><img src="08/C-12.PNG" width ="100%"></p>
-									</div>
-									<div class="col-md-4">
-										<p><img src="08/C-13.png" width ="100%"></p>
-									</div>
-								</div>
+							<div class="img-showcase">
+								<img src="08/handle.gif" width=50%>
+								<div class="img-caption">Interaction on VR handle</div>
+							</div>
+							<div class="discr">
+								<p>The layout of buttons on VR handles could be a huge cognitive burden for users (especially for clients who just use it one time). Thus, I try to make it as simple as possible. ‘B’ button is for clicking on all the UI buttons of virtual screens, which already cover most of the functions of CakeVR. ‘A’ button for 3d drawing. The ‘Gripping buttons’ of both hands are used for gripping 3d objects.</p>
 							</div>
 
-							<div class="row">
-								<div class="discr">
-									<div class="col-md-4">
-										<p>2. 3d manipulatin, UI interaction and the upper body motion of avatar is developed with C# in Unity, together with Oculus integration.</p>
-									</div>
-									<div class="col-md-4">
-										<p><img src="08/C-14.PNG" width ="100%"></p>
-									</div>
-									<div class="col-md-4">
-										<p><img src="08/C-15.PNG" width ="100%"></p>
-									</div>
-								</div>
-							</div>
+							<br><br>
 
-							<div class="row">
-								<div class="discr">
-									<div class="col-md-4">
-										<p>3. PhotonPUN is used to connect the multiple users via the server, and syncronize the 3d data, motion and function calls between the users.</p>
-									</div>
-									<div class="col-md-4">
-										<p><img src="08/C-17.PNG" width ="70%"></p>
-									</div>
-									<div class="col-md-4">
-										<p><img src="08/C-16.PNG" width ="70%"></p>
-									</div>
-								</div>
+							<div class="work-subtitle-2">
+							 	Gesture-based 3d interaction
+						  	</div>
+							<div class="discr">
+								<div class="imga"><img src="08/3dinteraction.png" width=80%></div>
+								<div class="img-caption">3d interaction gramma</div>
+								<p>I did research on the literature about gesture-based 3d operation commands, and then adapted them. Finally, I came up with a set of simple gestural grammar for the basic 3d manipulations: translation, rotation, scaling (x-y axis, z axis).</p>
 							</div>
-						<hr>
-
-						<h2>User Evaluation</h2><br><br>
-							<div class="row">
-								<div class="discr">
 								
-									<div class="col-md-4">
-										<p>Then, this prototype was evaluated for exploring two research questions.</p>
+								
+							
+							<hr>
+
+							<!-- VR develop -->
+
+							<div class="work-subtitle-1">
+							 	VR development
+						  	</div>
+
+							<div class="discr">
+								<p>The development process was generally divided into three phases: <b>[1] 3d modelling in Blender; [2] VR interaction development in aid of C# for Unity; [3] Multi-user connection and data sync by PhotonPun.</b></p>
+								<div class="imga"><img src="08/C-35.png" width ="60%" ></div>
+							</div>
+
+							<br><br>
+
+							<div class="discr">
+								
+										<p><b>PHASE1</b> - 3d modelling and shading and UV shading in Blender, to create the 3d shapes and visual texture of the mostly user cake component models.</p>
+									<div class="row">
+										<div class="col-md-4">
+											<p><img src="08/C-12.PNG" width ="100%"></p>
+											<p><img src="08/fruit.PNG" width ="100%"></p>
+										</div>
+										<div class="col-md-8">
+											<p><img src="08/C-13.png" width ="100%"></p>
+										</div>
+									</div>
+								
+							</div>
+
+							<br>
+
+								<div class="discr">
+										<p><b>PHASE2</b> - 3d manipulatin, UI interaction and the upper body motion of avatar is developed with C# in Unity, together with Oculus integration.</p>
+									<div class="row">
+										<div class="col-md-6">
+											<p><img src="08/C-14.PNG" width ="100%"></p>
+										</div>
+										<div class="col-md-6">
+											<p><img src="08/C-15.PNG" width ="100%"></p>
+										</div>
+									</div>
+								</div>
+
+							<br>
+
+								<div class="discr">
+									
+									<p><b>PHASE3</b> - PhotonPUN is used to connect the multiple users via the server, and syncronize the 3d data, motion and function calls between the users.</p>
+									<div class="row">
+										<div class="col-md-6">
+											<p><img src="08/C-17.PNG" width ="60%"></p>
+										</div>
+										<div class="col-md-6">
+											<p><img src="08/C-16.PNG" width ="60%"></p>
+										</div>
+									</div>
+								</div>
+
+							<hr>
+
+							<!-- video demo -->
+
+							<div class="work-subtitle-1" id="demo">
+							 	Final VR Prototype
+						  	</div>
+						  	<div class="imga" ><iframe width="750" height="480" src="https://www.youtube.com/embed/Sna02mPjf3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+						  	<hr>
+
+
+						  	<!-- user validation -->
+
+
+						  	<div class="work-subtitle-1">
+							 	User validation
+						  	</div>
+
+							<div class="discr">
+								<div class="row">
+									<div class="col-md-5">
+										<p>After implementation,  this prototype was evaluated by 10 users  in cake customization (4 cake makers, 6 customers who used to customize cakes). This validation aims to explore two research questions</p>
 									</div>
 
-									<div class="col-md-8">
+									<div class="col-md-7">
 										<ul>
 											<li id="question">How does this socialVR tool <b>affect users’ collaborative and social behavior</b> in co-designing customized cakes, compared with face-to-face communication?</li>
 											<li id="question">Do the <b>design requirements fix users’ latent needs</b> in the cake co-design activities?</li>
@@ -323,76 +401,94 @@
 								</div>
 							</div>
 
+							<div class="work-subtitle-2">
+							 	Test Setup
+						  	</div>
 
-							<h4>Test Setup</h4>
-
-							<div class="row">
-								<div class="discr">
-									<div class="col-md-4">
+							<div class="discr">
+								<div class="row">
+									<div class="col-md-5">
 										<p>A dual-user test was performed including one participant (play the role of client) and one researcher (play the role of cake maker). In CakeVR, they need to collaboratively design a cake for a specific context (i.e., event, time, location) which are generated by the participants themselves.</p>
 									</div>
-									<div class="col-md-8">
+									<div class="col-md-7">
 										<div class="imga"> <p> <img src="08/C-08.gif" width="100%"></p> </div>	
 									</div>
 								</div>
+								<br><br>
+									<div class="imga"> <img src="08/make.gif" width="60%">
+										<div class="img-caption">One participant (a professional baker) is building up the cake in CakeVR</div>
+									</div>
 							</div>
 
-							<br><br><br>
+							<br>
 
-							<div class="row">
-								<div class="discr">
+							<div class="discr">
+										<p>The procedure of the test is divided into 3 phases: <br>[1] A skype interview is performed one day before the VR test, for inspiring the participants to <b>generate a context</b> for which the cake would be made. The outcome of the interview is a collection of reference images and key words which would present the cake idea. <br>[2] These reference images will be loaded into the VR application for <b>the formal VR co-design sessions</b>.<br>[3] A <b>post-test interview</b> will be performed, and the participants were asked to fill in the System Usability Scale questionnaires (SUS).</p>
 									
-										<p>The procedure of the test is divided into 3 phases. [1] A skype interview is performed one day before the VR test, for inspiring the participants to <b>generate a context</b> for which the cake would be made. The outcome of the interview is a collection of reference images and key words which would present the cake idea. [2] These reference images will be loaded into the VR application for <b>the formal VR co-design sessions</b>.[3] A <b>post-test interview</b> will be performed, and the participants were asked to fill in the System Usability Scale questionnaires (SUS).</p>
-									
-										<div class="imga"> <p> <img src="08/C-09.gif" width="90%"></p> </div>		
+										<div class="imga"> <img src="08/C-09.gif" width="100%"> </div>		
 								</div>
 							</div>
 
-							<br><br><br>
+							<br>
 
-							<div class="row">
+							
+							<div class="discr">	
+								<p>The VR tests were performed in the researcher’s studio. In order to simulate remote communication, a physical separation was set between the two users. They communicate via skype wearing a noise-cancelling earphone.</p>
+								<div class="imga"> <img src="08/C-10.png" width="80%"></div>
+
+							</div>
+							
+
+							<div class="work-subtitle-2">
+							 	Data analysis
+						  	</div>
+							<div class="discr">
+								<div class="row">		
+									<div class="col-md-5">
+										<p> <b>OBSERVATION</b><br>I did an observation study by watching the screen-captured video of the participant’s view in VR, in order to investigate their behavior pattern.</p>
+										<div class="imga"> <img src="08/observation.gif" width="90%"> </div>
+										<div class="img-caption">Watching videos of VR viewport </div>
+									</div>
+									<div class="col-md-2">
+									</div>
+									<div class="col-md-5">
+										<p><b>THEMATIC ANALYSIS</b><br>Additionlly, I did thematic analysis by clustering the significant quatations in interviews, to investigate their experience with regard to social interactin and 3d work in co-design.</p>
+										<div class="imga"> <img src="08/C-27.PNG" width="90%"> </div>
+										<div class="img-caption">Clustering quotations in Miro</div>
+									</div>
+								</div>
+							</div>
+
+
+							<hr>
+
+
+							<div class="work-subtitle-1">
+							 	Result & Insight
+						  	</div>
+
+							<div class="work-subtitle-2">
+							 	[Result 1] Added value of socialVR in co-design
+						  	</div>
+
+
+						  	<div class="row">
 								<div class="discr">		
-									<div class="col-md-4">
-										<p>The VR tests were performed in the researcher’s studio. In order to simulate remote communication, a physical separation was set between the two users. They communicate via skype wearing a noise-cancelling earphone.</p>
-									</div>
-									<div class="col-md-8">
-										<div class="imga"> <p> <img src="08/C-10.png" width="100%"></p> </div>	
+									<p><b>1. Engagement in creative tasks</b><br>I made a video annotation and explored the activity pattern of each design session. I found that among the six customer participants(C5-C10), two of them are “active co-designer” (C6, C9)while the other four are “passive co-designers”(C5,7,8,10). From the “activity pattern”, you can see that active co-designers spent more time in building up and cake while the baker just occasionally gave advice and offered assistance in 3d building. However, the passive co-designers just convey their ideas to bakers and let cake makers build up the cake according to their requirements, generally they spend little time in cake-making.</p>
+									<div class="imga"> <img src="08/C-36.png" width="90%"> 
+										<div class="img-caption">Video annotation, activity pattern</div>
 									</div>
 								</div>
 							</div>
 
-							<h4>Data Analysis</h4>
-							<div class="row">
-								<div class="discr">		
-									<div class="col-md-4">
-										<b><p>Obersevation</p></b>
-										<p> I did an observation study by watching the screen-captured video of the participant’s view in VR, in order to investigate their behavior pattern.</p>
-									</div>
-									<div class="col-md-8">
-										<p> <img src="08/C-36.png" width="100%"></p> 
-									</div>
-								</div>
-							</div>
+							<br><br>
 
-							<div class="row">
-								<div class="discr">		
-									<div class="col-md-4">
-										<b><p>Thematic analysis</p></b>
-										<p> <img src="08/C-27.png" width="60%"></p> 
-										<p>Additionlly, I did thematic analysis by clustering the significant quatations in interviews, to investigate their experience with regard to social interactin and 3d work in co-design.</p>
-									</div>
-									<div class="col-md-8">
-										<p> <img src="08/C-28.gif" width="100%"></p> 
-									</div>
-								</div>
-							</div>
-
-							<h4>Result 1 - Added value of socialVR in co-design</h4>
 							<div class="row">
 								<div class="discr">		
 									<div class="col-md-6">
-										<b><p>1. EFFICIENCY OF COMMUNICATION</p></b>
-										<p> The efficiency of communication about cake ideas was highly improve due to the <b>real-time 3d manipulation and embodiment</b>. Collaborators can quickly edit the cake to show and evaluate their design ideas, and quicky reach consensus.</p>
+										<p><b>2. Efficiency of communication</b><br>The efficiency of communication about cake ideas was highly improve due to the <b>real-time 3d manipulation and embodiment</b>. Collaborators can quickly edit the cake to show and evaluate their design ideas, and quicky reach consensus.</p>
+
+										<div class="interview">Customer8:" 3D manipulation enables me to express my design ideas quickly. I have a feeling of control, when I can resize the virtual cake, and show it immediately to the cake maker how large the cake should be."</div>
 									</div>
 									<div class="col-md-6">
 										<p> <img src="08/C-38.gif" width="100%"></p> 
@@ -401,11 +497,16 @@
 								</div>
 							</div>
 
+							<br><br>
+
 							<div class="row">
 								<div class="discr">		
 									<div class="col-md-6">
-										<b><p>2. SHARED UNDERSTANDING</p></b>
-										<p>All the participants claimed that CakeVR helped to build up better shared understandings of the design process and fianl decisions between collborators, due to the abundant <b>visual evidence (i.e., images, 3d models)</b>, <b>interative 3d visualization</b> as well as <b>intuitive dectic guestures</b> with hand or lase pointers.</p>
+										
+										<p><b>3. Shared understanding</b><br>All the participants claimed that CakeVR helped to build up better shared understandings of the design process and fianl decisions between collborators, due to the abundant <b>visual evidence (i.e., images, 3d models)</b>, <b>interative 3d visualization</b> as well as <b>intuitive dectic guestures</b> with hand or lase pointers.</p>
+
+										<div class="interview">Customer9:" I could easily understand the cake maker because we were discussing and looking at the same image."<br><br>Baker1:" We both see the final cake. In reality, it might be slightly different, but you still have a quite good overview of the size, the color and some basic decorations."</div>
+
 									</div>
 									<div class="col-md-6">
 										<p> <img src="08/C-37.gif" width="100%"></p>
@@ -414,161 +515,140 @@
 								</div>
 							</div>
 
+							<br><br>
+
 							<div class="row">
 								<div class="discr">		
 									<div class="col-md-6">
-										<b><p>3. EASY SYSTEM</p></b>
-										<p>All the participants confirmed that the system, especially the gesture-based 3d manipulation was quick to learn and easy to use. This conclusion is also supported by the results of System Usability Scale.</p>
+										<p><b>4. Easy system & usability</b><br>All the participants confirmed that the system, especially the gesture-based 3d manipulation was quick to learn and easy to use. This conclusion is also supported by the results of System Usability Scale.</p>
+										<div class="interview">Customer8: "The interaction was straightforward and gave clear use cues."<br><br>Baker3:" It's not difficult. You just need a bit of time to get familiar with."</div>
+										<p>This conclusion is also supported by the results of System Usability Scale, in which 6/10 participants gave a score higher than the level "good".</p>
 									</div>
 									<div class="col-md-6">
 										<p> <img src="08/C-18.gif" width="100%"></p> 
-										<p> <img src="08/C-31.gif" width="100%"></p>
+										<p> <img src="08/sus.png" width="100%"></p>
 									</div>	
 								</div>	
 							</div>
 
+
+							<div class="work-subtitle-2">
+							 	Result 2 - Limitation of socialVR
+						  	</div>
+
+							<div class="discr">
+								<div class="row">		
+									<div class="col-md-6">
+										<p><b>1. Limited creative resources</b><br>All the participants thought that the preset model in the toolbar was insufficient for the free design work. One participant claimed that he want to get access to the Internet search engine for more inspiring resources.</p>
+										<div class="interview">Baker3:" I cannot get whatever (3d models) I want, because all the models are loaded into the virtual environment beforehand."</div>
+									</div>
+									<div class="col-md-6">
+										<div class="imga"> <img src="08/models.png" width="100%"></div> 
+										<div class="img-caption">All the preset models in CakeVR</div>
+									</div>
+								</div>
+							</div>
 							
+							<br><br>
 
-							<h4>Result 2 - Limitation of socialVR</h4>
-							<div class="row">
-								<div class="discr">		
+							<div class="discr">
+								<div class="row">		
 									<div class="col-md-6">
-										<b><p>1. Limited creative resources</p></b>
-										<p>All the participants thought that the preset model in the toolbar was insufficient for the free design work. One participant claimed that he want to get access to the Internet search engine for more inspiring resources.</p>
+										<p><b>2. Insufficient fidelity of design outcome</b><br>Although some participants thought the the fildelity of the final design outcome was not sufficient enough for them to percieve the cake ideas in a detailed way, some other participants thought that such fidelity was sufficient for them to get a general concept of the aesthetic and configuration of the cake.</p>
+										<div class="interview">P5: "I feel it is hard to perceive the details (in this tool)."
+										</div>
 									</div>
 									<div class="col-md-6">
-										<p> <img src="08/C-42.gif" width="100%"></p> 
-									</div>
-								</div>
-							</div>
-
-
-							<div class="row">
-								<div class="discr">		
-									<div class="col-md-6">
-										<b><p>2. Insufficient fidelity of design outcome</p></b>
-										<p>Although some participants thought the the fildelity of the final design outcome was not sufficient enough for them to percieve the cake ideas in a detailed way, some other participants thought that such fidelity was sufficient for them to get a general concept of the aesthetic and configuration of the cake.</p>
-									</div>
-									<div class="col-md-6">
-										<p> <img src="08/C-40.png" width="80%"></p> 
+										<div class="imga"> <img src="08/C-40.png" width="70%"></div> 
+										<div class="img-caption">The virtual cake made in CakeVR <b>VS</b> real cake she made </div>
 									</div>
 								</div>
 							</div>
 
-							<div class="row">
-								<div class="discr">		
-										<b><p>3. Affective interaction and co-presence</p></b>
-										<p>The lack of facial expression and emotional perception in virtual avatar leads to different user experience on participants who have different needs for emotional connection in collaboration,. For people who have higher requirements, they were negatively influenced, and hence, less engaged. For people who have lower needs, there are little impact, or positive user experience.</p>
+							<br><br>
+
+							<div class="discr">		
+								<div class="row">	
+										<p><b>3. Affective interaction and co-presence</b><br>The lack of facial expression and emotional perception in virtual avatar leads to different user experience on participants who have different needs for emotional connection in collaboration.</p>
+										<div class="imga"><img src="08/facial.PNG" width="30%"></div>
+										<div class="img-caption">They are greeting without facial expression</div>
 								</div>
+
+								<br>
+
+								<div class="row">		
+									<div class="col-md-5">
+										<p>For people who have higher requirements in emotional connection in work, they were negatively influenced, and hence, less engaged..</p>
+									</div>
+									<div class="col-md-7">
+										<div class="interview">Customer 8: “I didn’t know whether you were hearing me because I couldn’t see your facial expression, so I felt hesitated to take actions.”<br><br>Customer 10: “I can feel the attitude of my partner from his or her facial expression, and it brings me pleasure, without it I will lose interest in my work.”</div>
+									</div>
+								</div>
+
+								<br>
+
+								<div class="row">		
+									<div class="col-md-5">
+										<p>But for people who have lower needs for affection interaction in, there is little impact, or positive user experience.</p>
+									</div>
+									<div class="col-md-7">
+										<div class="interview">Customer 6:”I felt more relieved without facial expression because I didn’t need to respond to the other’s emotion so I can focus more on my work.”</div>
+									</div>
+								</div>
+
 							</div>
 
+							<br><br>
+							
 
 							<!-- DELETE-->
 
-							
-
-
-
-							<h4>Result 2 - validate design requirements</h4>
-							<div class="row">
-								<div class="discr">		
-									<div class="col-md-4">
-										<p>We validate each requirements by asking two questions, with regard to the user experience and utility of the design requirements. The result shows that 80% of the design requirement are helpful to the co-design work, and four of them are realized in a good quality.</p>
-									</div>
+							<div class="work-subtitle-2">
+							 	[Result3] validate design requirements
+						  	</div>
+	
+							<div class="discr">
+								<div class="row">	
 									<div class="col-md-8">
-										<div class="imga"> <p> <img src="08/C-11.gif" width="100%"></p> </div>	
+										<div class="imga"> <img src="08/C-11.gif" width="100%"></div>	
+									</div>	
+									<div class="col-md-4">
+									    <br>
+										<p>We validate each requirements by asking two questions, with regard to the user experience and utility of the design requirements. The result shows that 80% of the design requirement are helpful to the co-design work, and four of them are realized in a good quality.</p>
 									</div>
 								</div>
 							</div>
 
 
-							<br><br><br><br><br><br>
+							<br>
 
 							<hr>
 
-							<div class="discr">
-								<button type="button" class="collapsible">Qualitative results of user evaluation</button> 
-												<div class="content">
-													<div class="imga"><p><img src="08/C-30.gif" width="100%"></p></div>
-												</div>
-
-
-								<button type="button" class="collapsible">Usability evaluation</button> 
-												<div class="content">
-													<div class="col-md-3">
-						 							 	<p id="caption">I also investigated the system usability. Participants evaluated the usability of this tool by filling in the SUS form, they were encouraged to think aloud while filling in the questionnaires. </p>
-						 							 </div>
-						 							 <div class="col-md-9">
-						 							 	<p> <img src="08/C-31.gif" width="100%"></p>
-						 							 </div>
-												</div>
-
-
-								<button type="button" class="collapsible">Recommendation</button> 
-											<div class="content">
-												<b><p>Recommendation for study methods</p></b>
-												<div class="row">
-					 							 	<div class="col-md-6">
-					 							 		<p id="caption"><b>1. More Samples.</b> The test sample should be larger, recruiting participants with diverse backgrounds and personal features. In addition, we hope to invite participants who truly need to  personalize cakes in the real world. From user tests, we discovered that it was difficult to fully contextualize participants because they didn’t really need to order a customized cake.</p>
-						 							 </div>
-						 							 <div class="col-md-6">
-						 							 	<p> <img src="08/C-24.gif" width="80%"></p>
-						 							 </div>
-						 						</div>
-
-						 						<div class="row">
-					 							 	<div class="col-md-6">
-						 							 	<p id="caption"><b>2. Involve professional cake makers.</b> In this VR co-design test, the role of cake maker was played by the researcher who had little experience in cake making and business negotiation. There was a gap between real bakers and researchers with regards to professional knowledge and negotiation skills. In addition, since the opinions of professional cake makers on the socialVR tool were lost, we failed to investigate how this tool affects design experts’ behavior in the co-design activities and whether this tool meets their needs. </p>
-						 							 </div>
-						 							 <div class="col-md-6">
-						 							 	<p> <img src="08/C-23.gif" width="40%"></p>
-						 							 </div>
-						 						</div>
-
-						 						<div class="row">
-					 							 	<div class="col-md-6">
-						 							 	<p id="caption"><b>3. Different assignments.</b> In general, all the contexts generated by participants are emotional and personal (i.e., birthday party), and this might have an impact on their experience and behavior in the design process. We assume that such a design process might be different from designing a cake for a result-oriented context (i.e., customize a cake for an anniversary of X company with a budget of 100 euro). Therefore, it is advisable to perform a comparative test and situate the participants in a result-oriented context.</p>
-						 							 </div>
-						 							 <div class="col-md-6">
-						 							 	<p> <img src="08/C-22.gif" width="100%"></p>
-						 							 </div>
-						 						</div>
-
-					 							 
-					 							<br><br><br>	
-
-					 							 	<b><p>Recommendation for prototype</p></b>
-
-					 							 	<div class="row">
-					 							 	<div class="col-md-6">
-						 							 	<p id="caption"><b>1. Design for dialogue.</b> Face-to-face communication.</p>
-						 							 	<p id="caption"><b>2. Design for realism.</b> Higher rendering quality to improve environment realism.</p>
-						 							 	<p id="caption"><b>3. Design for inspiring environment.</b> A more creative environemnt encouraging  people to play with 3d models.</p>
-						 							 </div>
-						 							 <div class="col-md-6">
-						 							 	<p> <img src="08/C-25.gif" width="100%"></p>
-						 							 </div>
-						 						</div>
-											</div>
+							<div class="work-subtitle-1">
+							 	Futher improvement
+						  	</div>
+						  	<div class="discr">
+						  	<p>I am still working on this project after graduation, writing it as an academic paper for HCI conference submission. The most essential improvement is the realism of virtual scene, which is proved to be a significant factor of the user's feeling of presence. Also, the layout of virtual space, and the creative resource are also improved.</p>
+						  	</div>
+						  	<div class="img-showcase">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="imga"><img src="08/improve1.gif" width=90%></div>
+										<div class="img-caption">Design in bakery</div>
+									</div>
+									<div class="col-md-6">
+										<div class="imga"><img src="08/improve2.gif" width="90%"> </div>
+										<div class="img-caption">Design in cake-context</div>
+									</div>
+								</div>
 							</div>
+	
 
 	
-						</div>
+						
 
 					 <!--其他-->
-					 <div class="row" id="otherwork">
-						 <hr></hr>
-					 	 <h2>other work</h2><br>
-					 	 	 
-					 	 	 <h6><s>Cake_VR</s></h6>
-					 	 	 <h6><a href="Ultimaker.html">Ultimaker & CuraFlow</a></h6>
-					 	 	 <h6><a href="history.html">Hi!Story</a></h6>
-					 	 	 <h6><a href="Chicken.html">Once Upon a Time of Chicken</a></h6>
-							 <h6><a href="AirMatter.html">Air Matters</a></h6>
-							 <h6><a href="Community.html">Community Co-Design</a></h6>
-
-					 </div>
-
+					 
 			    </div>
 		    </div>
 	    </div>
