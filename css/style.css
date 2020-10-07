@@ -284,6 +284,41 @@ div.margin{
   margin-top: auto !important;
 }
 
+#instagram{
+  color: #d6295c;
+  text-decoration: underline;
+}
+
+div.story{
+  width: 80%;
+  border-radius: 12px;
+  box-shadow: 3px 3px 20px;
+  font-style: italic;
+  padding: 20px;
+  margin: 20px auto;
+}
+.story h1{
+  font-size: 18px;
+  font-family: 'ibm-mono-bold';
+  font-style: normal;
+}
+
+div.insight{
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 3px 3px 20px;
+  font-style: italic;
+  padding: 15px;
+  margin: 20px auto;
+  text-align: left;
+  line-height: 150%;
+}
+.insight h1{
+  font-size: 15px;
+  font-family: 'ibm-mono-bold';
+  font-style: normal;
+  text-align: center;
+}
 
 div.d1 {
     width: 500px;
