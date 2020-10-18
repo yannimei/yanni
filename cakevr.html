@@ -37,6 +37,9 @@
             <link rel="icon" href="images/1111.ico" type="image/x-icon">
     <!--收藏夹显示图标-->
             <link rel="shortcut icon" href="images/1111.ico" type="image/x-icon">
+     <!--图片切换-->
+            <link rel="stylesheet" href="dist/css/swiper.min.css">
+            <link rel="stylesheet" href="dist/css/swiper.css">
 
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
@@ -67,8 +70,9 @@
 				<div class="work-overview">
 					<div class="work-inactive"><a href="cakevr.html">Cake_VR</a></div>
 					<div class="work-active"><a href="ultimaker.html">Cura FLow</a></div>
-					<div class="work-active"><a href="ballstalk.html">Ball & Stalk Game</a></div>
 					<div class="work-active"><a href="history.html">Hi!Story</a></div>
+					<div class="work-active"><a href="air.html">Air Matters</a></div>
+					<div class="work-active"><a href="ballstalk.html">Ball & Stalk Game</a></div>
 					<div class="work-active"><a href="3d.html">100 Days of 3D Design</a></div>
 				</div>
 
@@ -248,10 +252,26 @@
 								<div class="imga"> <img src="08/process.png" width="75%"></div>			
 							</div>
 							<br><br>
-							<div class="imga"> <img src="08/clientinput.png" width="80%" id="shadow-pic"></div><br>
-							<div class="imga"> <img src="08/ideation.png" width="80%" id="shadow-pic"></div><br>
-							<div class="imga"> <img src="08/agreement.png" width="80%" id="shadow-pic"></div><br>
-							
+								
+
+							<div class="row">
+								<div class="swiper-container" id="swiper-2">
+									<div class="swiper-wrapper">
+									        <div class="swiper-slide"><img src="08/clientinput.png" width="90%" id="shadow-pic"></div>
+									        <div class="swiper-slide"><img src="08/ideation.png" width="90%" id="shadow-pic"></div>
+									        <div class="swiper-slide"><img src="08/agreement.png" width="90%" id="shadow-pic"></div>
+									</div>
+							     <!-- 如果需要导航按钮 -->
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+									<br><br>
+								<!-- 如果需要分页器 -->
+									<div class="swiper-pagination"></div>
+								</div>
+							</div>
+
+
+					
 
 							<br><br>
 							<div class="work-subtitle-2">[Result 2] Conclude Design requirements</div>
@@ -678,6 +698,26 @@
 
 	<!-- SWIPE JS -->
 	<script src="dist/js/swiper.min.js"></script>
+
+	 <!-- 图片滚动 -->
+	<script>        
+			  var mySwiper = new Swiper ('.swiper-container', {
+			    loop: true, // 循环模式选项
+			    
+			    // 如果需要分页器
+			    pagination: {
+			      el: '.swiper-pagination',
+			    },
+			    
+			    // 如果需要前进后退按钮
+			    navigation: {
+			      nextEl: '.swiper-button-next',
+			      prevEl: '.swiper-button-prev',
+			    },
+			  })        
+    </script>
+
+
 
 
 

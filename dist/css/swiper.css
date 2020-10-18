@@ -17,7 +17,30 @@
   padding: 0;
   /* Fix of Webkit flickering */
   z-index: 1;
+  text-align: center;
 }
+
+#swiper-1{
+width: 60%;
+}
+
+.swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+  text-align: center;
+}
+
+#swiper-2{
+width: 90%;
+}
+
+
+
 .swiper-container-no-flexbox .swiper-slide {
   float: left;
 }
@@ -30,8 +53,8 @@
 }
 .swiper-wrapper {
   position: relative;
-  width: 100%;
-  height: 100%;
+/*  width: 100%;
+  height: 100%;*/
   z-index: 1;
   display: -webkit-box;
   display: -webkit-flex;
@@ -67,12 +90,18 @@
   flex-shrink: 0;
   width: 100%;
   height: 100%;
+  padding: auto 0;
   position: relative;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
+
+  text-align: center;
+  padding: auto;
+  font-size: 18px;
+  background: #fff;
 }
 .swiper-slide-invisible-blank {
   visibility: hidden;

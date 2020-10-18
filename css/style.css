@@ -165,7 +165,7 @@ div.img-showcase{
 div.imga {
    margin: 0px auto;
    text-align: center;
-   width: 95%;
+   width: 100%;
 }
 div.img-caption{
    margin: 1em auto;
@@ -208,7 +208,14 @@ div.quotation p{
   color:#fff;
 }
 
-
+div.d1 {
+    width: 500px;
+    height: 400px;
+    align:center;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+    margin: 0 auto;
+}
 
 
 div.work-overview {
@@ -320,13 +327,7 @@ div.insight{
   text-align: center;
 }
 
-div.d1 {
-    width: 500px;
-    height: 400px;
-    align:center;
-    overflow-y: scroll;
-    overflow-x: hidden; 
-}
+
 
 div.d2 {
     width: 500px;
@@ -344,16 +345,7 @@ div.d3 {
     overflow-x: hidden; 
 }
 
-div.swiper-container {
-    width: 800px;
-    height: 500px;
-} 
 
-div.swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-}
 
 
 div.guide p{
@@ -932,7 +924,7 @@ body.offcanvas {
   height: 450px;
   width: 100%;
   display: block;
-  margin-bottom: 30px; }
+  margin-bottom: 5px; }
   .project .desc {
     position: absolute;
     top: 0;
@@ -1049,6 +1041,10 @@ body.offcanvas {
   text-transform: uppercase;
   font-weight: 400;
   text-decoration: underline; }
+
+.animate-box{
+  margin-bottom: 25px;
+}
 
 .colorlib-lead {
   font-size: 18px;
